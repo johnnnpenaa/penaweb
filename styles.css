@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Playfair+Display&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  header {
+    background: rgb(201, 30, 30);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,39,39,1) 59%, rgba(252,0,7,1) 100%);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #cart {
+    margin-top: 50px;
+  }
+  
+  #cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  #checkout {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    
+  }
+  button:hover{
+    color:red;
+    background-color: black;
+  }
+  .astig{
+    transition:all 2s cubic-bezier(0.075, 0.82, 0.165, 1)
+  }
+  .astig:hover{
+    color: red;
+  }
+  button{
+    transition:all 2s cubic-bezier(0.075, 0.82, 0.165, 1)
+  }
